@@ -31,6 +31,7 @@ for filename in os.listdir(folder_path):
                 hashes[hash] = image_path
 
 # Output the list of duplicates
+print(f"")
 print(f"Duplicates:")
 with open('dup.txt', 'w') as file:
     for dup in duplicates:
